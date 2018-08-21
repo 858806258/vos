@@ -11,3 +11,5 @@ if [ $getip != $oldip ]
 else
    exit
 fi
+#获取ip地址
+#wget -qO- -t1 -T2 ipv4.icanhazip.com

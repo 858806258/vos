@@ -1,0 +1,10 @@
+APP_HOME=/home/kunshi/vos3000/webserver
+APP_PID=/home/kunshi/.run/vos3000webserver.pid
+APP_NAME=vos3000webserver
+APP_LOCK=$APP_PID.lock
+APP_LOCK_FILE=/var/lock/subsys/vos3000websv
+APP_MEMORY=1500
+
+
+
+su - kunshi -c "cd /home/kunshi/vos3000/webserver/bin;$APP_HOME/home/kunshi/vos3000/webserver/bin/vos3000webserver -x 1500 -r /home/kunshi/.run/vos3000webserver.pid > /dev/null 2>&1"
